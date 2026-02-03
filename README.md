@@ -40,6 +40,21 @@ Logistic Regression achieved the highest ROC-AUC score.
 Random Forest performed competitively.
 Gradient Boosting underperformed without hyperparameter tuning.
 
+## Visual Results
+
+### Confusion Matrix – Logistic Regression
+![LR CM](results/confusion_matrix_lr.png)
+
+### Confusion Matrix – Random Forest
+![RF CM](results/confusion_matrix_rf.png)
+
+### Confusion Matrix – Gradient Boosting
+![GB CM](results/confusion_matrix_gb.png)
+
+### ROC Curve Comparison
+![ROC Curve](results/roc_curve_comparison.png)
+
+
 ## Model Performance Summary
 
 | Model               | Recall (Fraud) | Precision (Fraud) | ROC-AUC |
